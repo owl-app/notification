@@ -18,7 +18,7 @@ interface NotificationInterface extends TimestampableInterface, ResourceInterfac
 
     public function getDateIssue(): ?\DateTimeInterface;
 
-    public function setDateIssue(?\DateTimeInterface $date): void;
+    public function setDateIssue(?\DateTimeInterface $dateIssue): void;
 
     public function getCurrentFrom(): ?\DateTimeInterface;
 
