@@ -8,5 +8,5 @@ interface NotificationAwareInterface
 {
     public function getNotification(): ?NotificationInterface;
 
-    public function setNotification(?NotificationInterface $user);
+    public function setNotification(?NotificationInterface $notification);
 }
